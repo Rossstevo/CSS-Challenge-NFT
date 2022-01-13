@@ -1,0 +1,159 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.avatar {
+  position: relative;
+  top: 2px;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.container {
+  /* border: 1px solid coral; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+}
+
+.container .main-box {
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  /* border: 1px solid white; */
+  border-radius: 5%;
+  height: 550px;
+  width: 320px;
+  flex-direction: column;
+}
+
+.container .main-box .image-box {
+  /* border: 1px solid red; */
+  border-radius: 5%;
+  height: 250px;
+  width: 280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-image: url("images/image-equilibrium.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container .main-box .text-box {
+  /* border: 1px solid green; */
+  border-radius: 5%;
+  height: 100px;
+  width: 280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.container .main-box .currency {
+  display: flex;
+  justify-content: space-between;
+  left: 4px;
+  height: 30px;
+  width: 280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.container .main-box .line {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+  width: 280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.container .main-box .credit-box {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid orange; */
+  height: 40px;
+  width: 280px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: -5px
+}
+
+.container .main-box .currency .rate h2 {
+  position: relative;
+  color: hsl(178, 100%, 50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  bottom: 8px;
+  left: 4px;
+}
+
+.container .main-box .currency .rate {
+  display: flex;
+  /* border: 1px solid white; */
+  height: 28px;
+  width: 135px;
+}
+
+.container .main-box .currency .clock {
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px solid white; */
+  height: 28px;
+  width: 135px;
+}
+
+.container .main-box .currency .clock p {
+  position: relative;
+  top: 8.5px;
+  font-size: 16px;
+  left: 2px;
+}
+
+.icon {
+  width: 10px;
+  height: 20px;
+  margin-top: 4px;
+}
+
+.icon-clock {
+  width: 16px;
+  height: 16px;
+  margin-top: 6px;
+}
+
+p1 {
+  position: relative;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: lighter;
+  left: 12px;
+  top: 2px;
+}
+
+strong {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-weight: normal;
+}
